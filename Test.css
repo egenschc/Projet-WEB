@@ -1,0 +1,27 @@
+html{
+	background-color:#26C4EC;
+	background-image: url('plonge.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height:100%;
+	background-size: 100% 100%; 
+	
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+}
+.mille, li{
+	background-color:#74D0F1;
+	text-align: center ;
+	color:#000000;
+}
+h1{
+	text-align:center;
+	font-size:70px;
+	color:#FDEE00;
+}
+h2{
+	text-align:center;
+}
