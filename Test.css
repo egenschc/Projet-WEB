@@ -1,7 +1,7 @@
 html{
 	background-image: url('plonge.jpg');
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
 	height:100%;
 	background-size: 100% 100%; 
 	
@@ -57,11 +57,63 @@ ul li a:active{
     box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
 }
 
-h1{
+.titre{
 	text-align:center;
-	font-size:70px;
+	font-size:270%;
 	color:#FDEE00;
 }
-h2{
+.sous-titre{
 	text-align:center;
+	color:#F2FFFF;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+.button{
+	display:block;
+	text-align:center;
+	vertical-align:middle;
+	background:url(bouton.png) no-repeat;
+	color:white;
+	text-decoration:none;
+}
+.button:hover{
+	background:url(bouton.png) no-repeat;
+}
+
+.table{
+	display:block;
+	margin:auto;
+	
+}
+.table p{
+	display: center;
+}
+.arbre{
+	width:500px;
+	margin:2%;
+	padding:10px;
+    background:dodgerblue;
+	border:1px solid #DDD;
+	border-radius:5px;
+	  -webkit-border-radius:5px;
+	  -moz-border-radius:5px;
+}
+.arbre2{
+	width:500px;
+	margin:2%;
+	padding:10px;
+    background:dodgerblue;
+	border:1px solid #DDD;
+	border-radius:5px;
+	  -webkit-border-radius:5px;
+	  -moz-border-radius:5px;
+}
+.arbre3{
+	width:500px;
+	margin:2%;
+	padding:10px;
+    background:dodgerblue;
+	border:1px solid #DDD;
+	border-radius:5px;
+	  -webkit-border-radius:5px;
+	  -moz-border-radius:5px;
 }
